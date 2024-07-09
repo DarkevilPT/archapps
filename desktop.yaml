@@ -34,7 +34,7 @@ desktop:
       - package_name: archcraft_de
         pretty_name: Archcraft
         category: Desktop
-        description: Archcraft DE - at your own risk - user pass archcraft
+        description: Archcraft DE at your own risk user pass archcraft
         compatible: null
         packages: null
         commands: |
