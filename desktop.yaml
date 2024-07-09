@@ -11,9 +11,9 @@ desktop:
   # Category List
   - categories:
 ########################################################################
-      - category_name: Desktop
+      - category_name: Desktop Environments
         category_description: Install a Desktop Environment 
-      - category_name: UEFI
+      - category_name: UEFI Operative Systems
         category_description: Install UEFI Operative Systems
 ########################################################################
   # Desktop Environment List
@@ -36,7 +36,7 @@ desktop:
       # Archcraft ACU
       - package_name: archcraft-install
         pretty_name: Archcraft
-        category: Desktop
+        category: Desktop Environments
         description: Archcraft Install
         compatible: null
         packages: null
@@ -49,7 +49,7 @@ desktop:
       # Windows Install EMMC
       - package_name: windows-install
         pretty_name: Windows
-        category: UEFI
+        category: UEFI Operative Systems
         description: windows script for emmc
         compatible: null
         packages: null
@@ -60,7 +60,7 @@ desktop:
       # Armbian Linux Install
       - package_name: armbian-install
         pretty_name: Armbian
-        category: UEFI
+        category: UEFI Operative Systems
         description: Armbian script install
         compatible: null
         packages: null
