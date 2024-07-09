@@ -48,7 +48,7 @@ cd archcraft-arm
 
 
       # Gnome (Full)
-      - package_name: gnome-full
+      - package_name: gnome-teste1
         pretty_name: Gnome (Full)
         category: Desktop
         description: Comprehensive Gnome desktop with full suite
