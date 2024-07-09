@@ -30,20 +30,20 @@ desktop:
 #          # This can be multiple lines
 #          # This is mostly used for post install, which is optional
 
-      # Archcraft
-      - package_name: teste1
+      # Test
+      - package_name: test
         pretty_name: Archcraft
         category: Desktop
         description: Archcraft DE - at your own risk - user pass archcraft
-        compatible: null
-        packages: null
+        #compatible: null
+        #packages: null
         commands: |
         echo "Hello World"
-        #curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
-        #tar -xzvf archcraft-arm.tar.gz
-        #cd archcraft-arm
+        sudo curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
+        sudo tar -xzvf archcraft-arm.tar.gz
+        cd archcraft-arm
         # nano customize.sh
         # user/pass archcraft
-        #./install.sh
+        sudo ./install.sh
 
 ########################################################################
