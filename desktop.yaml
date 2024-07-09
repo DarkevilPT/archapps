@@ -59,7 +59,7 @@ desktop:
         packages: null
         commands: |
           sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/ooowow_16mb.img.gz
-          #gzip -dc ooowow-16mb.img.gz | sudo dd of=/dev/emmc
+          gzip -dc ooowow_16mb.img.gz | sudo dd of=/dev/emmc
           #sudo reboot now
 
 ########################################################################
