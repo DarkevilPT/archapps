@@ -37,7 +37,7 @@ desktop:
       - package_name: archcraft-install
         pretty_name: Archcraft
         category: Desktop Environments
-        description: Archcraft Install
+        description: Archcraft Openbox, Bspwm and i3wm
         compatible: null
         packages: null
         commands: |
@@ -50,7 +50,7 @@ desktop:
       - package_name: windows-install
         pretty_name: Windows
         category: UEFI Operative Systems
-        description: windows script for emmc
+        description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
         commands: |
@@ -61,7 +61,7 @@ desktop:
       - package_name: armbian-install
         pretty_name: Armbian
         category: UEFI Operative Systems
-        description: Armbian script install
+        description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
         commands: |
