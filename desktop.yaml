@@ -10,8 +10,11 @@ desktop:
 ########################################################################
   # Category List
   - categories:
+########################################################################
       - category_name: Desktop
         category_description: Install a Desktop Environment
+      - category_name: UEFI
+        category_description: Install UEFI Systems
 ########################################################################
   # Desktop Environment List
   - items:
@@ -46,7 +49,7 @@ desktop:
       # Windows Install EMMC
       - package_name: windows-install
         pretty_name: Windows
-        category: Desktop
+        category: UEFI
         description: windows script for emmc
         compatible: null
         packages: null
@@ -57,7 +60,7 @@ desktop:
       # Armbian Linux Install
       - package_name: armbian-install
         pretty_name: Armbian
-        category: Desktop
+        category: UEFI
         description: Armbian script install
         compatible: null
         packages: null
