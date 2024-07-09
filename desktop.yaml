@@ -53,7 +53,7 @@ desktop:
         commands: |
           echo "Hello World"
           sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Windows-install-emmc.sh
-          sudo ./Windows-install-emmc.sh
+          ./Windows-install-emmc.sh
 
 
 ########################################################################
