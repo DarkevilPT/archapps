@@ -37,7 +37,8 @@ TITLE="$BOARD fix-up UEFI"
 
 set -e -o pipefail
 
-[ "$BOARD" ] || \
+#[ "$BOARD" ] || \
+[ "Edge2" ] || \
 BOARD=$(board_name 2>/dev/null || echo Undefined)
 
 [ "$DST" ] || \
