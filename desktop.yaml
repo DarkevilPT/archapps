@@ -51,7 +51,7 @@ desktop:
 ########################################################################
 
       # ooowow
-      - package_name: ooowow
+      - package_name: ooowow-16mb
         pretty_name: 16mb OOWOW mode
         category: Khadas OOWOW
         description: For EMMC it cant be mounted try on CLI
@@ -63,7 +63,7 @@ desktop:
           #sudo reboot now
 
       # ooowow
-      - package_name: ooowow
+      - package_name: ooowow-edge2
         pretty_name: Edge2 OOWOW mode
         category: Khadas OOWOW
         description: For EMMC it cant be mounted try on CLI
