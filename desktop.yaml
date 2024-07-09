@@ -30,8 +30,8 @@ desktop:
 #          # This can be multiple lines
 #          # This is mostly used for post install, which is optional
 
-      # Hyprland
-      - package_name: archcraft_teste
+      # Archcraft
+      - package_name: archcraft_jnbo
         pretty_name: Archcraft
         category: Desktop
         description: Archcraft DE - at your own risk - user pass archcraft
