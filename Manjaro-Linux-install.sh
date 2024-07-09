@@ -19,7 +19,7 @@ replacement to Windows or MacOS with different Desktop Environments.
 " #DESCRIPTION_END
 
 LABEL="Manjaro"
-BOARDS="VIM2 VIM3 #"
+BOARDS="sbc"
 
 ## USAGE examples
 
@@ -29,7 +29,8 @@ BOARDS="VIM2 VIM3 #"
 
 set -e -o pipefail
 
-[ "$BOARD" ] || \
+#[ "$BOARD" ] || \
+[ "sbc" ] || \
 BOARD=$(board_name 2>/dev/null || echo Undefined)
 
 [ "$DST" ] || \

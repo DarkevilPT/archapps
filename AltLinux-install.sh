@@ -15,7 +15,7 @@ Manager and built on a Linux kernel and Sisyphus package repository...
     TYPES= builder | lxqt | mate | xfce
 " #DESCRIPTION_END
 
-BOARDS="VIM1 VIM2 VIM3 VIM3L Edge #"
+BOARDS="sbc"
 
 ## USAGE examples
 
@@ -25,7 +25,8 @@ BOARDS="VIM1 VIM2 VIM3 VIM3L Edge #"
 
 set -e -o pipefail
 
-[ "$BOARD" ] || \
+#[ "$BOARD" ] || \
+[ "sbc" ] || \
 BOARD=$(board_name 2>/dev/null || echo Undefined)
 
 [ "$DST" ] || \

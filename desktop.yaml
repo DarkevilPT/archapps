@@ -79,4 +79,48 @@ desktop:
           sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Armbian-Linux-install.sh
           /bin/bash ./Armbian-Linux-install.sh
 
+      # Alt Linux Install
+      - package_name: altlinux-install
+        pretty_name: Alt Linux
+        category: UEFI Operative Systems
+        description: For EMMC it cant be mounted try on CLI
+        compatible: null
+        packages: null
+        commands: |
+          sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/AltLinux-install.sh
+          /bin/bash ./Armbian-Linux-install.sh
+
+      # Fedora Install
+      - package_name: fedora-install
+        pretty_name: Fedora
+        category: UEFI Operative Systems
+        description: For EMMC it cant be mounted try on CLI
+        compatible: null
+        packages: null
+        commands: |
+          sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Fedora-Linux-install.sh
+          /bin/bash ./Armbian-Linux-install.sh
+
+      # Manjaro Install
+      - package_name: manjaro-install
+        pretty_name: Manjaro
+        category: UEFI Operative Systems
+        description: For EMMC it cant be mounted try on CLI
+        compatible: null
+        packages: null
+        commands: |
+          sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Manjaro-Linux-install.sh
+          /bin/bash ./Armbian-Linux-install.sh
+
+      # Ubuntu Focal Generic Install
+      - package_name: ubuntu-focal-install
+        pretty_name: Ubuntu Focal Generic Install
+        category: UEFI Operative Systems
+        description: For EMMC it cant be mounted try on CLI
+        compatible: null
+        packages: null
+        commands: |
+          sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Ubuntu-focal-Generic-install.sh
+          /bin/bash ./Armbian-Linux-install.sh
+
 ########################################################################

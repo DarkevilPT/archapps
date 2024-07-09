@@ -25,7 +25,7 @@ LABEL="Ubuntu"
 TYPE=minimal
 REL=focal
 
-BOARDS="VIM1 VIM2 VIM3 VIM3L Edge #"
+BOARDS="sbc"
 
 set -e -o pipefail
 
@@ -40,7 +40,8 @@ TITLE=Error umsg "$@"
 exit 1
 }
 
-[ "$BOARD" ] || \
+#[ "$BOARD" ] || \
+[ "sbc" ] || \
 BOARD=$(board_name 2>/dev/null || echo Undefined)
 
 TITLE="Generic Ubuntu $REL - $TYPE :: $DST installation for: $BOARD ..."
