@@ -36,7 +36,7 @@ desktop:
         category: Desktop
         description: Archcraft DE - at your own risk - user pass archcraft
         compatible: null
-        packages: null
+        packages: - null
         commands: |
         echo "Hello World"
         #curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
