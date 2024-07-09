@@ -31,7 +31,7 @@ desktop:
 #          # This is mostly used for post install, which is optional
 
       # Archcraft ACU
-      - package_name: archcraft_de
+      - package_name: archcraft-de
         pretty_name: Archcraft
         category: Desktop
         description: Archcraft DE at your own risk user pass archcraft
