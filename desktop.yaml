@@ -14,7 +14,7 @@ desktop:
       - category_name: Desktop
         category_description: Install a Desktop Environment
       - category_name: UEFI
-        category_description: Install UEFI Systems
+        category_description: Install UEFI Operative Systems
 ########################################################################
   # Desktop Environment List
   - items:
