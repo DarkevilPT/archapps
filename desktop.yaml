@@ -34,7 +34,7 @@ desktop:
       - package_name: archcraft-install
         pretty_name: Archcraft
         category: Desktop
-        description: Archcraft DE at your own risk user pass archcraft
+        description: archcraft de
         compatible: null
         packages: null
         commands: |
@@ -45,9 +45,9 @@ desktop:
 
       # Windows Install EMMC
       - package_name: windows-install
-        pretty_name: Windows Install on EMMC
+        pretty_name: Windows
         category: Desktop
-        description: Lets get it installed boyzzz
+        description: windows script for emmc
         compatible: null
         packages: null
         commands: |
