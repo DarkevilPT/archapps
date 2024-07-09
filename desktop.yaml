@@ -52,7 +52,7 @@ desktop:
 
       # ooowow
       - package_name: ooowow
-        pretty_name: Flash/Enter OOWOW mode
+        pretty_name: 16mb OOWOW mode
         category: Khadas OOWOW
         description: For EMMC it cant be mounted try on CLI
         compatible: null
@@ -61,6 +61,18 @@ desktop:
           sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/ooowow_16mb.img.gz
           gzip -dc ooowow_16mb.img.gz | sudo dd of=/dev/emmc
           #sudo reboot now
+
+      # ooowow
+      - package_name: ooowow
+        pretty_name: Edge2 OOWOW mode
+        category: Khadas OOWOW
+        description: For EMMC it cant be mounted try on CLI
+        compatible: null
+        packages: null
+        commands: |
+          sudo curl -LO https://dl.khadas.com/firmware/oowow/system/edge2-oowow-latest-spi-upgrade-sd.img.gz
+          gzip -dc edge2-oowow-latest-spi-upgrade-sd.img.gz | sudo dd of=/dev/emmc
+          #sudo reboot now          
 
 ########################################################################
 
