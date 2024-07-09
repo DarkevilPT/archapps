@@ -48,7 +48,7 @@ desktop:
 
       # UEFI
       - package_name: flash-uefi
-        pretty_name: Flash and Enter UEFI mode
+        pretty_name: Flash/Enter UEFI mode
         category: UEFI Operative Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
