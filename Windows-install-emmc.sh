@@ -14,7 +14,7 @@ Windows install eMMC
 " #DESCRIPTION_END
 
 LABEL="Windows"
-BOARDS="Edge2"
+BOARDS="sbc"
 
 REL=arm
 SRC=${SRC:-edge2-windows-11-$REL.img.zst}
@@ -26,7 +26,8 @@ TITLE="$BOARD Windows 11 install to eMMC"
 
 set -e -o pipefail
 
-[ "Edge2" ] || \
+#[ "$BOARD" ] || \
+[ "sbc" ] || \
 BOARD=$(board_name 2>/dev/null || echo Undefined)
 
 [ "$DST" ] || \

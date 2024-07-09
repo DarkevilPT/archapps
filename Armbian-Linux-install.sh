@@ -16,12 +16,12 @@ https://armbian.com https://docs.armbian.com https://forum.armbian.com
     REL=? from Thu 02 Mar 2023 03:43:21 AM UTC
 
     TYPES= Bullseye | Jammy ...
-    BOARDS= VIM1 | VIM2 | VIM3 | VIM3L | Edge
+    BOARDS= sbc
 
 " #DESCRIPTION_END
 
 LABEL="Armbian"
-BOARDS="VIM1 VIM2 VIM3 VIM3L Edge #"
+BOARDS="sbc"
 
 ## USAGE examples
 
@@ -35,7 +35,8 @@ set -e -o pipefail
 
 GET="curl -A krescue_downloader -jkL"
 
-[ "Edge" ] || \
+#[ "$BOARD" ] || \
+[ "sbc" ] || \
 BOARD=$(board_name 2>/dev/null || echo Undefined)
 
 case $BOARD in

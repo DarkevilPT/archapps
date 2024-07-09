@@ -20,7 +20,7 @@ Docs:    https://docs.khadas.com/products/sbc/edge2/troubleshooting/edge2-uboot-
 " #DESCRIPTION_END
 
 LABEL="UEFI"
-BOARDS="Edge2 "
+BOARDS="sbc "
 
 #REL=${REL:-v0.7.1}
 #SRC=${SRC:-edge2_UEFI_Release_$REL.img}
@@ -38,7 +38,7 @@ TITLE="$BOARD fix-up UEFI"
 set -e -o pipefail
 
 #[ "$BOARD" ] || \
-[ "Edge2" ] || \
+[ "sbc" ] || \
 BOARD=$(board_name 2>/dev/null || echo Undefined)
 
 [ "$DST" ] || \
