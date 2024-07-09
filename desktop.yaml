@@ -37,7 +37,7 @@ desktop:
         description: Archcraft DE - at your own risk - user pass archcraft
         compatible: null
         packages:
-curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
+
         commands: |
 #curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
 tar -xzvf archcraft-arm.tar.gz
