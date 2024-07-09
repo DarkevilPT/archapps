@@ -39,7 +39,7 @@ desktop:
         packages:
 
         commands: |
-#curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
+curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
 tar -xzvf archcraft-arm.tar.gz
 cd archcraft-arm
 # nano customize.sh
