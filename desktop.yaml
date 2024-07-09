@@ -46,4 +46,17 @@ cd archcraft-arm
 # user/pass archcraft
 ./install.sh
 
+
+      # Gnome (Full)
+      - package_name: gnome-full
+        pretty_name: Gnome (Full)
+        category: Desktop
+        description: Comprehensive Gnome desktop with full suite
+        compatible: null
+        packages:
+          - gnome
+        commands: |
+          sudo systemctl enable gdm
+
+
 ########################################################################
