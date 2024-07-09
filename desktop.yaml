@@ -15,6 +15,8 @@ desktop:
         category_description: Install a Desktop Environment 
       - category_name: UEFI Operative Systems
         category_description: Install UEFI Operative Systems
+      - category_name: Khadas OOWOW
+        category_description: Try oooWoW
 ########################################################################
   # Desktop Environment List
   - items:
@@ -45,6 +47,22 @@ desktop:
           sudo tar -xzvf archcraft-arm.tar.gz
           cd archcraft-arm
           sudo ./install.sh
+
+########################################################################
+
+      # ooowow
+      - package_name: ooowow
+        pretty_name: Flash/Enter OOWOW mode
+        category: Best Terminal Bios for Linux
+        description: For EMMC it cant be mounted try on CLI
+        compatible: null
+        packages: null
+        commands: |
+          sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/oowow_16mb.gz
+          #gzip -dc ooowow-16mb.img.gz | sudo dd of=/dev/emmc
+          #sudo reboot now
+
+########################################################################
 
       # UEFI
       - package_name: flash-uefi
