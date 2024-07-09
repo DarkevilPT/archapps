@@ -53,7 +53,7 @@ desktop:
       # ooowow
       - package_name: ooowow
         pretty_name: Flash/Enter OOWOW mode
-        category: Best Terminal Bios for Linux
+        category: Khadas OOWOW
         description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
