@@ -39,24 +39,11 @@ desktop:
         packages: 
           - arcraft-arm
         commands: |
-curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
-tar -xzvf archcraft-arm.tar.gz
-cd archcraft-arm
-# nano customize.sh
-# user/pass archcraft
-./install.sh
-
-
-      # Gnome (Full)
-      - package_name: gnome-teste1
-        pretty_name: Gnome (Full)
-        category: Desktop
-        description: Comprehensive Gnome desktop with full suite
-        compatible: null
-        packages:
-          - gnome
-        commands: |
-          sudo systemctl enable gdm
-
+        sudo curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
+        sudo tar -xzvf archcraft-arm.tar.gz
+        cd archcraft-arm
+        # nano customize.sh
+        # user/pass archcraft
+        sudo  ./install.sh
 
 ########################################################################
