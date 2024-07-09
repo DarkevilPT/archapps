@@ -55,5 +55,16 @@ desktop:
           sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Windows-install-emmc.sh
           /bin/bash ./Windows-install-emmc.sh
 
+      # Armbian Linux Install
+      - package_name: armbian-install
+        pretty_name: Armbian
+        category: Desktop
+        description: Armbian script install
+        compatible: null
+        packages: null
+        commands: |
+          echo "Hello World"
+          sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Armbian-Linux-install.sh
+          /bin/bash ./Armbian-Linux-install.sh
 
 ########################################################################
