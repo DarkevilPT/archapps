@@ -31,7 +31,7 @@ desktop:
 #          # This is mostly used for post install, which is optional
 
       # Hyprland
-      - package_name: archcraft
+      - package_name: archcraft_teste
         pretty_name: Archcraft
         category: Desktop
         description: Archcraft DE - at your own risk - user pass archcraft
