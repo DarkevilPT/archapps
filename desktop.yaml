@@ -34,14 +34,14 @@ desktop:
       - package_name: archcraft-install
         pretty_name: Archcraft
         category: Desktop
-        description: archcraft de
+        description: Archcraft Install
         compatible: null
         packages: null
         commands: |
-        sudo curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
-        sudo tar -xzvf archcraft-arm.tar.gz
-        cd archcraft-arm
-        sudo ./install.sh
+          sudo curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
+          sudo tar -xzvf archcraft-arm.tar.gz
+          cd archcraft-arm
+          sudo ./install.sh
 
       # Windows Install EMMC
       - package_name: windows-install
@@ -51,9 +51,9 @@ desktop:
         compatible: null
         packages: null
         commands: |
-        echo "Hello World"
-        sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Windows-install-emmc.sh
-        sudo ./Windows-install-emmc.sh
+          echo "Hello World"
+          sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Windows-install-emmc.sh
+          sudo ./Windows-install-emmc.sh
 
 
 ########################################################################
