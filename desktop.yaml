@@ -35,8 +35,8 @@ desktop:
         pretty_name: Archcraft
         category: Desktop
         description: Archcraft DE at your own risk user pass archcraft
-        compatible: null
-        packages: null
+#        compatible: null
+#        packages: null
         commands: |
         sudo curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
         sudo tar -xzvf archcraft-arm.tar.gz
@@ -50,8 +50,8 @@ desktop:
         pretty_name: Windows Install on EMMC
         category: Desktop
         description: Lets get it installed boyzzz
-        compatible: null
-        packages: null
+#        compatible: null
+#        packages: null
         commands: |
         echo "Hello World"
         sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Windows-install-emmc.sh
