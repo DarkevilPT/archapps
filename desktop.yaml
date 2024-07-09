@@ -46,6 +46,17 @@ desktop:
           cd archcraft-arm
           sudo ./install.sh
 
+      # UEFI
+      - package_name: flash-uefi
+        pretty_name: Flash and Enter UEFI mode
+        category: UEFI Operative Systems
+        description: For EMMC it cant be mounted try on CLI
+        compatible: null
+        packages: null
+        commands: |
+          sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/UEFI-fixup.sh
+          /bin/bash ./UEFI-fixup.sh
+
       # Windows Install EMMC
       - package_name: windows-install
         pretty_name: Windows
