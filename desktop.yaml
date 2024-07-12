@@ -56,9 +56,9 @@ desktop:
         compatible: null
         packages: null
         commands: |
-          #sfdisk --delete /dev/mmcblk0
-          wget http://dl.khadas.com/products/edge2/firmware/.windows/edge2-windows-11-arm.img.zst
-          zstd -dc edge2-win-install-arm.img.zst > /dev/sdX && sync
+          #sudo sfdisk --delete /dev/mmcblk0
+          sudo wget http://dl.khadas.com/products/edge2/firmware/.windows/edge2-windows-11-arm.img.zst
+          sudo zstd -dc edge2-win-install-arm.img.zst > /dev/sdX && sync
 
 ########################################################################
 
