@@ -49,8 +49,8 @@ desktop:
           sudo ./install.sh
 
       # Test Windows ACU
-      - package_name: test
-        pretty_name: test_Windows
+      - package_name: test11
+        pretty_name: test11
         category: Desktop Environments
         description: test
         compatible: null
