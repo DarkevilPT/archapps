@@ -48,18 +48,6 @@ desktop:
           cd archcraft-arm
           sudo ./install.sh
 
-      # Test Windows ACU
-      - package_name: test11
-        pretty_name: test11
-        category: Desktop Environments
-        description: test
-        compatible: null
-        packages: null
-        commands: |
-          sudo sfdisk --delete /dev/mmcblk0
-          sudo curl -LO http://dl.khadas.com/products/edge2/firmware/.windows/edge2-windows-11-arm.img.zst
-          sudo zstd -dc edge2-windows-11-arm.img.zst > sudo /dev/mmcblk0 && sync
-
 ########################################################################
 
       # ooowow
@@ -107,8 +95,11 @@ desktop:
         compatible: null
         packages: null
         commands: |
-          sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Windows-install-emmc.sh
-          /bin/bash ./Windows-install-emmc.sh
+          #sudo curl -LO https://raw.githubusercontent.com/DarkevilPT/archapps/main/Windows-install-emmc.sh
+          #/bin/bash ./Windows-install-emmc.sh
+          sudo sfdisk --delete /dev/mmcblk0
+          sudo curl -LO http://dl.khadas.com/products/edge2/firmware/.windows/edge2-windows-11-arm.img.zst
+          sudo zstd -dc edge2-windows-11-arm.img.zst > sudo /dev/mmcblk0 && sync
 
       # Armbian Linux Install
       - package_name: armbian-install
