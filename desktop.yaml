@@ -56,9 +56,9 @@ desktop:
         compatible: null
         packages: null
         commands: |
-          #sudo sfdisk --delete /dev/mmcblk0
+          sudo sfdisk --delete /dev/mmcblk0
           sudo curl -LO http://dl.khadas.com/products/edge2/firmware/.windows/edge2-windows-11-arm.img.zst
-          sudo zstd -dc edge2-windows-11-arm.img.zst > sudo /dev/sdX && sync
+          sudo zstd -dc edge2-windows-11-arm.img.zst > sudo /dev/mmcblk0 && sync
 
 ########################################################################
 
