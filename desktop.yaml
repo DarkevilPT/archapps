@@ -36,17 +36,17 @@ desktop:
 #          # This is mostly used for post install, which is optional
 
       # Archcraft ACU
-      - package_name: archcraft-install
-        pretty_name: Archcraft
-        category: Desktop Environments
-        description: Archcraft Openbox, Bspwm and i3wm
-        compatible: null
-        packages: null
-        commands: |
-          sudo curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
-          sudo tar -xzvf archcraft-arm.tar.gz
-          cd archcraft-arm
-          sudo ./install.sh
+      #- package_name: archcraft-install
+      #  pretty_name: Archcraft
+      #  category: Desktop Environments
+      #  description: Archcraft Openbox, Bspwm and i3wm
+      #  compatible: null
+      #  packages: null
+      #  commands: |
+      #    sudo curl -LO https://github.com/archcraft-os/archcraft-arm/releases/download/1.0/archcraft-arm.tar.gz
+      #    sudo tar -xzvf archcraft-arm.tar.gz
+      #    cd archcraft-arm
+      #    sudo ./install.sh
 
 ########################################################################
 
