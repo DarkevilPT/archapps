@@ -48,6 +48,17 @@ desktop:
           cd archcraft-arm
           sudo ./install.sh
 
+      # Test Windows ACU
+      - package_name: test
+        pretty_name: test_Windows
+        category: Desktop Environments
+        description: test
+        compatible: null
+        packages: null
+        commands: |
+        wget http://dl.khadas.com/products/edge2/firmware/.windows/edge2-windows-11-arm.img.zst
+        zstd -dc edge2-win-install-arm.img.zst > /dev/sdX && sync
+
 ########################################################################
 
       # ooowow
