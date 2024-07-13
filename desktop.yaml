@@ -114,7 +114,7 @@ desktop:
 
       # ArchLinux Install
       - package_name: archlinx-install
-        pretty_name: archlinux
+        pretty_name: ArchLinux
         category: UEFI Operative Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
