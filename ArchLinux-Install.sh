@@ -20,7 +20,7 @@ FAIL() {
 
 # We'll be using bash
 
-TARGET_DRIVE=$(mmc_disk)
+TARGET_DRIVE=$(mmcblk0)
 BOARD_MODEL=$(tr -d '\0' < /sys/firmware/devicetree/base/model || echo Khadas)
 BOARD_NAME=
 case "$BOARD_MODEL" in
