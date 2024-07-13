@@ -17,6 +17,8 @@ desktop:
         category_description: Install UEFI Operative Systems
       - category_name: Khadas OOWOW
         category_description: Try oooWoW
+      - category_name: Operative Systems
+        category_description: Manjaro Installer, etc
 ########################################################################
   # Desktop Environment List
   - items:
@@ -47,6 +49,21 @@ desktop:
           sudo tar -xzvf archcraft-arm.tar.gz
           cd archcraft-arm
           sudo ./install.sh
+
+      # Manjaro
+      - package_name: manjaro-installer
+        pretty_name: Manjaro Installer
+        category: Operative Systems
+        description: Manjaro Clean Install to emmc via CLI
+        compatible: null
+        packages: null
+        commands: |
+        sudo pacman -S bash wget git systemd dialog parted libarchive openssl gawk dosfstools polkit btrfs-progs f2fs-tools cryptsetup
+        git clone manjaro-arm / applications / manjaro-arm-installer · GitLab
+        cd manjaro-arm-installer
+        chmod +x manjaro-arm-installer
+        sudo bash ./manjaro-arm-installer
+
 
 ########################################################################
 
