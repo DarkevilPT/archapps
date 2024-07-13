@@ -113,8 +113,8 @@ desktop:
           /bin/bash ./Armbian-Linux-install.sh
 
       # ArchLinux Install
-      - package_name: armbian-install
-        pretty_name: Armbian
+      - package_name: archlinx-install
+        pretty_name: archlinux
         category: UEFI Operative Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
