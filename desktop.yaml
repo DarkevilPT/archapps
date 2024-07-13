@@ -13,7 +13,7 @@ desktop:
 ########################################################################
       - category_name: Desktop Environments
         category_description: Install a Desktop Environment 
-      - category_name: UEFI Operative Systems
+      - category_name: UEFI Systems
         category_description: Install UEFI Operative Systems
       - category_name: Khadas OOWOW
         category_description: Try oooWoW
@@ -50,6 +50,8 @@ desktop:
           cd archcraft-arm
           sudo ./install.sh
 
+########################################################################
+
       # Manjaro
       - package_name: manjaro-installer
         pretty_name: Manjaro Installer
@@ -63,7 +65,6 @@ desktop:
         cd manjaro-arm-installer
         chmod +x manjaro-arm-installer
         sudo bash ./manjaro-arm-installer
-
 
 ########################################################################
 
@@ -96,7 +97,7 @@ desktop:
       # UEFI
       - package_name: flash-uefi
         pretty_name: Flash/Enter UEFI mode
-        category: UEFI Operative Systems
+        category: UEFI Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
@@ -107,7 +108,7 @@ desktop:
       # Windows Install EMMC
       - package_name: windows-install
         pretty_name: Windows
-        category: UEFI Operative Systems
+        category: UEFI Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
@@ -121,7 +122,7 @@ desktop:
       # Armbian Linux Install
       - package_name: armbian-install
         pretty_name: Armbian
-        category: UEFI Operative Systems
+        category: UEFI Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
@@ -132,7 +133,7 @@ desktop:
       # ArchLinux Install
       - package_name: archlinx-install
         pretty_name: ArchLinux2
-        category: UEFI Operative Systems
+        category: UEFI Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
@@ -143,7 +144,7 @@ desktop:
       # Alt Linux Install
       - package_name: altlinux-install
         pretty_name: Alt Linux
-        category: UEFI Operative Systems
+        category: UEFI Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
@@ -154,7 +155,7 @@ desktop:
       # Fedora Install
       - package_name: fedora-install
         pretty_name: Fedora
-        category: UEFI Operative Systems
+        category: UEFI Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
@@ -165,7 +166,7 @@ desktop:
       # Manjaro Install
       - package_name: manjaro-install
         pretty_name: Manjaro
-        category: UEFI Operative Systems
+        category: UEFI Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
@@ -176,7 +177,7 @@ desktop:
       # Ubuntu Focal Generic Install
       - package_name: ubuntu-focal-install
         pretty_name: Ubuntu Focal Generic Install
-        category: UEFI Operative Systems
+        category: UEFI Systems
         description: For EMMC it cant be mounted try on CLI
         compatible: null
         packages: null
